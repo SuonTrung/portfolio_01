@@ -7,78 +7,105 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <header>
-    <h1>30DAYSトライアル</h1>
-    <div class="link">
-      <ul>
-        <li><a href="#">デイトラとは</a></li>
-        <li><a href="#">コース一覧</a></li>
-        <li><a href="#">お問い合わせ</a></li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <div class="intro">
-      <div class="pic">
-        <img src="img/main-vsual.png" width="100%">
+  <body>
+    <header>
+      <h1>30DAYSトライアル</h1>
+      <div class="link pc">
+        <ul>
+          <li><a href="#">デイトラとは</a></li>
+          <li><a href="#">コース一覧</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
       </div>
-    </div>
-    <div class="about">
-      <div class="topic">
-        <h1>デイトラとは</h1>
+      <div class="btn sp">
+        <div id="top"></div>
+        <div id="mid"></div>
+        <div id="end"></div>
       </div>
-      <div class="container">
-        <div class="pic">
-          <img src="img/about.png" width="100%">
+      <div class="humb">
+        <ul>
+          <li><a href="#">デイトラとは</a></li>
+          <li><a href="#">コース一覧</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="intro">
+        <div class="pic pc">
+          <img src="img/main-vsual.png" width="100%">
         </div>
-        <div class="text">
-          <p>デイトラとは、無料で・迷わず・楽しく学べるプログラミング学習アプリです。毎日設定された課題をこなしていくだけで、未経験から30日でプログラミングスキルが身につきます。1日1題30日でプロのWebエンジニアを目指しましょう！</p>
-        </div>
-      </div>
-    </div>
-    <div class="course">
-      <div class="topic">
-        <h1>コース一覧</h1>
-      </div>
-      <div class="container">
-        <div class="pic">
-          <div class="img">
-            <img src="img/web_first.png" width="100%">
+        <div class="pic sp">
+          <img src="img/main-vsual-nontitle.png">
+          <div class="text">
+            <h2><span class="in-bl">1日1題で30日で</span><span class="in-bl">プロのWebエンジニア</span class="in-bl"><span class="in-bl">になろう！</span></h2>
+            <p><span class="in-bl">毎日設定された課題をこなすだけ！</span><span class="in-bl">未経験から30日でプログラミングスキルが身につきます</span></p>
           </div>
-          <p>HTML / CSS / Bootstrap</p>
-        </div>
-        <div class="pic">
-          <div class="img">
-            <img src="img/web_second.png" width="100%">
-          </div>
-          <p>HTML / CSS / Javascript / jQuery</p>
-        </div>
-        <div class="pic">
-          <div class="img">
-            <img src="img/web_third.png" width="100%">
-          </div>
-          <p>PHP / WordPress</p>
         </div>
       </div>
-    </div>
-    <div class="post">
-      <div class="topic">
-        <h1>お問い合わせ</h1>
-      </div>
-      <form action="#" method="POST">
+      <div class="about">
+        <div class="topic">
+          <h1>デイトラとは</h1>
+        </div>
         <div class="container">
-          <p>さあ今日から30日間始めよう！</p>
-          <div class="mail">
-            <input type="text" name="mail" placeholder="  メールアドレス">
+          <div class="pic">
+            <img src="img/about.png" width="100%">
           </div>
-          <div class="btn">
-            <input type="submit" value="無料で始める">
+          <div class="text">
+            <p>デイトラとは、無料で・迷わず・楽しく学べるプログラミング学習アプリです。毎日設定された課題をこなしていくだけで、未経験から30日でプログラミングスキルが身につきます。1日1題30日でプロのWebエンジニアを目指しましょう！</p>
           </div>
         </div>
-      </form>
-    </div>
-  </main>
-  <footer>
-    copyright(C) 2020東京フリーランス ALL Rights Reserved.
-  </footer>
+      </div>
+      <div class="course">
+        <div class="topic">
+          <h1>コース一覧</h1>
+        </div>
+        <div class="container">
+          <div class="pic">
+            <div class="img">
+              <img src="img/web_first.png" width="100%">
+            </div>
+            <p>HTML / CSS / Bootstrap</p>
+          </div>
+          <div class="pic">
+            <div class="img">
+              <img src="img/web_second.png" width="100%">
+            </div>
+            <p>HTML / CSS / Javascript / jQuery</p>
+          </div>
+          <div class="pic">
+            <div class="img">
+              <img src="img/web_third.png" width="100%">
+            </div>
+            <p>PHP / WordPress</p>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <div class="topic">
+          <h1>お問い合わせ</h1>
+        </div>
+        <form action="#" method="POST">
+          <div class="container">
+            <p>さあ今日から30日間始めよう！</p>
+            <div class="mail">
+              <label>
+                <input type="text" name="mail" placeholder="  メールアドレス">
+              </label>
+            </div>
+            <div class="btn">
+              <label>
+              <input type="submit" value="無料で始める">
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      Copyright(C) 2020 東京フリーランス ALL Rights Reserved
+    </footer>
+    <script src="js/JQuery.js"></script>
+    <script src="js/javascript.js"></script>
+  </body>
 </html>
